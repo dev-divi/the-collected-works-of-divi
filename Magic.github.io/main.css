@@ -1,0 +1,195 @@
+
+body {
+  margin: 0px !important;
+}
+h1 {
+  padding: 0px 0px 0px 0px!important;
+  margin: 0px 0px 0px 0px !important;
+}
+#main {
+    font-family: 'Homemade Apple', cursive;
+    /*font-family: 'TT2020BaseRegular';
+    font-size:1.35em;*/
+    /* font-size: 30px; */
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.25em
+    display: block; /*delete these 4 lines if problems */
+    position: relative;
+    word-break: break-word;
+    z-index: 999999;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+}
+#posts {
+  background-image: url("/img/paper.jpg");
+  background-size: 750px;
+  margin: auto !important;
+  text-align: center;
+  width: 750px;
+}
+a {
+  color: white;
+  text-decoration: none;
+
+}
+#heading {
+  font-family: 'Press Start 2P', cursive;
+  padding-left: 20px;
+  color: #999999;
+  /* jb gold #a28351; */
+}
+#belovedheading {
+  font-family: 'Press Start 2P', cursive;
+  padding-left: 20px;
+  color: white;
+  /* jb gold #a28351; */
+}
+body {
+  font-family: 'Homemade Apple', cursive;
+  /* background-color: #FFF1E5;
+                       #303030;
+  */
+  background-color: #111111;
+
+}
+#holdmybook {
+  height: 90vh;             /* 14, 11,
+    */
+  background-image: url("/imgtest/background3.png");
+  background-size: 1920px 100%;
+}
+#holdmybookspecial {
+  height: 90vh;             /* 14, 11,
+    */
+  background-image: url("/imgtest/14.jpg");
+  background-size: 1920px 100%;
+}
+#bookpage {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/*    background-color: #111111;
+
+  background-size: contain;
+  background-size: cover;
+
+*/
+
+}
+
+#bookpagespecial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/*    background-color: #111111;
+
+  background-size: contain;
+  background-size: cover;
+
+*/
+
+}
+#book {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  perspective: 1200px;
+}
+#page {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: grid;
+  background-image: linear-gradient(90deg, rgba(227,227,227,1) 0%, rgba(247,247,247,0) 18%);
+  background-color: #fffbf3;
+  background-image: url("/img/paper.png");
+  background-size: 100% 100%;
+}
+
+#pagespecial
+  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-image: linear-gradient(90deg, rgba(227,227,227,1) 0%, rgba(247,247,247,0) 18%);
+    background-color: #999999;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-image: url("/imgtest/14.jpg");
+
+  }
+#page_content {
+  padding: 12px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+#address {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+/* NFT */
+#nft {
+
+}
+#nft-frame {
+  height: 350px;
+  width: 350px;
+}
+#nftbutton {
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  border: 5px solid black;
+  font-family: 'Press Start 2P', cursive;
+}
+#nftbutton:hover {
+  background: black;
+  border: 5px solid #fffbf3;
+  color: #fffbf3;
+}
+
+#nftbuttonowned {
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  border: 5px solid grey;
+  font-family: 'Press Start 2P', cursive;
+  color: grey;
+}
+p { /* custom !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+b {
+
+    padding: 0px 0px 0px 0px!important;
+    margin: 0px 0px 0px 0px !important;
+}
+#navnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  width: 424px;
+  position: absolute;
+}
+canvas {
+  display: block;
+  position: absolute;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+}

@@ -1,0 +1,22 @@
+---
+layout: default
+title: bytestheblessed.com
+---
+
+<style>
+</style>
+
+{{ content }}
+<ul style="background-color:#fffbf3;">
+  {% for post in site.posts %}
+  <div id="thefeed" >
+    <li >
+      <h4 id="thefeedmore"><a href="{{ post.url }}"> - {{ post.title }}</a>  {{ post.topic }} {{ post.date }} - </h4>
+
+    <!--  <p>  {{ post.excerpt }}</p> -->
+    </li>
+  </div>
+    <br>
+
+  {% endfor %}
+  <li>
